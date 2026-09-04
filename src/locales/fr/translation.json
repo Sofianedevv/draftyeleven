@@ -1,0 +1,230 @@
+{
+  "lobby": {
+    "room": "Salon",
+    "waiting": "En attente des autres joueurs...",
+    "players": "Joueurs",
+    "start": "Lancer la partie",
+    "leave": "Quitter le salon"
+  },
+  "donation": {
+    "title": "Soutenir DraftyEleven",
+    "desc": "Jeu 100% gratuit et sans publicité. Un petit don aide à maintenir les serveurs !",
+    "btn": "Faire un don"
+  },
+  "home": {
+    "subtitle": "Choisissez votre mode de jeu",
+    "mode_xi": {
+      "title": "XI DE LÉGENDE",
+      "desc": "Draft complète de 11 joueurs par poste. Placez-les sur le terrain et créez la tactique parfaite !",
+      "tag1": "11 Joueurs",
+      "tag2": "Terrain"
+    },
+    "mode_5v5": {
+      "title": "DRAFT 5V5",
+      "desc": "Mode classique rapide. 5 joueurs par équipe. Le premier arrivé est le premier servi !",
+      "tag1": "5 Joueurs",
+      "tag2": "Rapide"
+    },
+    "mode_blind": {
+      "title": "BLIND RANKING",
+      "desc": "Mini-jeu TikTok : Classe 10 joueurs mystères de 1 à 10 sans savoir qui arrive ensuite !",
+      "tag1": "Mini-Jeu",
+      "tag2": "Solo / Co-op"
+    },
+    "mode_sbs": {
+      "title": "START BENCH SELL",
+      "desc": "3 joueurs : Un titulaire, un remplaçant, un vendu. Faites vos choix !",
+      "tag1": "Mini-Jeu",
+      "tag2": "Débat"
+    },
+    "mode_mystery": {
+      "title": "DEVINE LE JOUEUR",
+      "desc": "Devinez le joueur caché avec des indices de plus en plus précis.",
+      "tag1": "Mini-Jeu",
+      "tag2": "Connaissances"
+    },
+    "mode_prix": {
+      "title": "LE JUSTE PRIX",
+      "desc": "Estimez le prix d'achat réel (Ajusté à l'inflation) d'un transfert historique.",
+      "tag1": "Mini-Jeu",
+      "tag2": "Culture Foot"
+    },
+    "mode_intrus": {
+      "title": "CHERCHE L'INTRUS",
+      "desc": "Parmi 4 joueurs, trouvez celui qui correspond à l'intrus selon un critère donné.",
+      "tag1": "Mini-Jeu",
+      "tag2": "Culture Foot"
+    },
+    "mode_joue_avec": {
+      "title": "IL A JOUÉ AVEC...",
+      "desc": "Trouvez le joueur qui a joué avec les 4 joueurs donnés.",
+      "tag1": "Mini-Jeu",
+      "tag2": "Culture Foot"
+    },
+    "mode_plus_ou_moins": {
+      "title": "PLUS OU MOINS",
+      "desc": "Le prochain joueur est-il plus ou moins bien noté que le précédent ?",
+      "tag1": "Mini-Jeu",
+      "tag2": "Culture Foot"
+    }
+  },
+  "bidding": {
+    "no_one": "Personne",
+    "current_bid": "Enchère Actuelle",
+    "held_by": "Tenue par :",
+    "turn_of": "Au tour de :",
+    "available_budget": "Budget dispo :",
+    "waiting_for_player": "En attente de la décision de {{name}}...",
+    "you_hold_bid": "Vous tenez l'enchère !",
+    "waiting_for_others": "En attente des autres joueurs...",
+    "custom_amount_placeholder": "Montant précis...",
+    "bid": "Miser",
+    "pass": "Se Coucher"
+  },
+  "gameboard": {
+    "pool": "Bassin de joueurs",
+    "draft_in_progress": "Draft en cours",
+    "position_to_draft": "Poste à drafter",
+    "drawer": "Tireur",
+    "budgets_teams": "Budgets & Équipes",
+    "drafts": "drafts",
+    "turn_alert": "C'est au tour de {{name}} de piocher !",
+    "legendary_xi_order_alert": "En mode XI de Légende, les cartes doivent être tirées dans l'ordre !",
+    "insufficient_funds": "Fonds insuffisants !",
+    "higher_bid_alert": "L'enchère doit être supérieure à l'enchère actuelle !"
+  },
+  "plusoumoins": {
+    "back": "Retour",
+    "score": "Score",
+    "max": "Max",
+    "title": "PLUS OU MOINS",
+    "stat_label": "Statistique :",
+    "stat_value": "Buts en Ligue des Champions",
+    "game_over": "PERDU !",
+    "has_scored": "a marqué",
+    "goals": "buts",
+    "you_said": "Tu as dit",
+    "higher": "PLUS",
+    "lower": "MOINS",
+    "than": "que",
+    "final_score": "Score final :",
+    "play_again": "Rejouer"
+  },
+  "chercheintrus": {
+    "back": "Retour",
+    "score": "Score",
+    "title": "CHERCHE L'INTRUS",
+    "subtitle": "Trois de ces joueurs ont un point commun très précis. Lequel est l'intrus ?",
+    "correct": "Bravo ! Bonne réponse 🏆",
+    "incorrect": "Dommage, mauvaise réponse ❌",
+    "next_question": "Question Suivante"
+  },
+  "mysteryplayer": {
+    "back": "Retour",
+    "difficulty_title": "Niveau de difficulté",
+    "difficulty_desc": "Choisis la difficulté des joueurs mystères",
+    "diff_easy": "FACILE",
+    "diff_normal": "NORMAL",
+    "diff_hard": "DIFFICILE",
+    "diff_expert": "EXPERT",
+    "diff_fada": "FADA DE FOOT",
+    "diff_all": "TOUS LES NIVEAUX (Aléatoire)",
+    "menu": "Menu",
+    "restart": "Recommencer",
+    "title": "DEVINE LE JOUEUR",
+    "player": "Joueur",
+    "difficulty": "Difficulté",
+    "hidden_clue": "Indice masqué...",
+    "next_player": "Joueur Suivant",
+    "game_over": "Fin de la partie ! Tu as deviné tous les joueurs de cette catégorie.",
+    "next_clue": "Indice Suivant",
+    "reveal": "Révéler !"
+  },
+  "justeprix": {
+    "title": "LE JUSTE PRIX",
+    "subtitle": "Devinez le montant historique du transfert (en Millions d'Euros).",
+    "back": "Retour",
+    "p1": "J1",
+    "p2": "J2",
+    "transfer_to": "Transfert vers",
+    "in_year": "en",
+    "player1_guess": "Estimation Joueur 1",
+    "player2_guess": "Estimation Joueur 2",
+    "closest": "🏆 Plus proche !",
+    "lost": "❌ Perdu",
+    "reveal_price": "Révéler le prix",
+    "tie": "🤝 Égalité parfaite !",
+    "winner_point": "🎉 Le Joueur {{player}} remporte le point !",
+    "next_transfer": "Transfert Suivant",
+    "alert_enter_price": "Les deux joueurs doivent entrer un prix !"
+  },
+  "gamesetup": {
+    "title": "Configuration de la Partie",
+    "title_xi": "Configuration XI de Légende",
+    "title_5v5": "Configuration Draft 5v5",
+    "back": "Retour",
+    "mode_local": "Jeu Local (Un seul écran)",
+    "mode_host": "Créer Salon",
+    "mode_join": "Rejoindre",
+    "join_title": "Rejoindre une partie en ligne",
+    "your_pseudo": "Votre Pseudo",
+    "placeholder_pseudo": "Ex: Zidane",
+    "room_code": "Code du Salon (4 lettres)",
+    "placeholder_code": "Ex: A7B2",
+    "players_settings": "Paramètres des Joueurs",
+    "num_players": "Nombre de joueurs (2-5)",
+    "players": "Joueurs",
+    "player": "Joueur",
+    "pseudo": "Pseudo",
+    "host_pseudo": "Votre Pseudo (Hôte)",
+    "placeholder_host": "Pseudo Hôte",
+    "budget_settings": "Paramètres du Budget",
+    "starting_budget": "Budget de départ (M€)",
+    "theme_choice": "Choix du Thème",
+    "category": "Catégorie",
+    "category_custom": "Personnalisé",
+    "custom_items_label": "Éléments à drafter (10 max)",
+    "item": "Élément",
+    "position_draft": "Draft par Postes",
+    "position_draft_desc": "Vous allez drafter un XI de légende poste par poste. Soyez stratégiques !",
+    "btn_join": "Rejoindre la Partie",
+    "btn_create": "Créer le Salon",
+    "btn_start": "Lancer la Partie",
+    "alert_join_required": "Veuillez entrer un code et un pseudo.",
+    "alert_custom_items": "Pour {{players}} joueurs, vous devez saisir exactement {{required}} éléments (5 par joueur)."
+  },
+  "joueavec": {
+    "back": "Retour",
+    "score": "Score",
+    "title": "IL A JOUÉ AVEC...",
+    "subtitle": "Quel joueur a eu la chance de jouer avec ces 4 légendes dans sa carrière ?",
+    "choose_answer": "Choisissez la bonne réponse :",
+    "correct": "Bravo ! Bonne réponse 🏆",
+    "wrong": "Dommage, mauvaise réponse ❌",
+    "next_player": "Joueur Suivant"
+  },
+  "startbenchsell": {
+    "back": "Retour",
+    "new_draw": "Nouveau Tirage",
+    "title": "START, BENCH, SELL",
+    "subtitle": "Débattez : Qui est titulaire, qui va sur le banc, et qui est vendu ?",
+    "role_start": "TITULAIRE",
+    "role_bench": "BANC",
+    "role_sell": "VENDU",
+    "start": "Titulaire",
+    "bench": "Banc",
+    "sell": "Vendu",
+    "choices_validated": "Choix Validés !",
+    "next_round": "Tour Suivant"
+  },
+  "blindranking": {
+    "back": "Retour",
+    "restart": "Recommencer",
+    "title": "BLIND RANKING",
+    "description": "Classe ces 10 joueurs de 1 à 10 sans savoir qui arrive ensuite !",
+    "game_over": "Terminé !",
+    "final_ranking": "Voici ton classement final.",
+    "empty": "Vide",
+    "click_to_place": "Clique pour placer ici..."
+  }
+}

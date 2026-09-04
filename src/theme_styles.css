@@ -1,0 +1,67 @@
+/* Category Pills */
+.category-scroller {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  scrollbar-width: none;
+}
+.category-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.category-pill {
+  padding: 0.5rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--surface-border);
+  border-radius: 99px;
+  color: var(--text-secondary);
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.category-pill.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* Theme Cards Grid */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.theme-card {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--surface-border);
+  border-radius: 16px;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.theme-card.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: var(--accent);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+}
+.theme-card .icon {
+  font-size: 2rem;
+}
+.theme-card .name {
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.setup-section { background: rgba(0, 0, 0, 0.25); border: 1px solid var(--surface-border); border-radius: 20px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.setup-section-title { font-size: 1.25rem; font-weight: 800; color: var(--accent); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem; }

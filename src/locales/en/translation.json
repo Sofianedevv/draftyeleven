@@ -1,0 +1,230 @@
+{
+  "lobby": {
+    "room": "Room",
+    "waiting": "Waiting for other players...",
+    "players": "Players",
+    "start": "Start Game",
+    "leave": "Leave Room"
+  },
+  "donation": {
+    "title": "Support DraftyEleven",
+    "desc": "100% free game with no ads. A small donation helps keep the servers running!",
+    "btn": "Donate"
+  },
+  "home": {
+    "subtitle": "Choose your game mode",
+    "mode_xi": {
+      "title": "LEGENDARY XI",
+      "desc": "Full 11-player draft by position. Place them on the pitch and create the perfect tactic!",
+      "tag1": "11 Players",
+      "tag2": "Pitch"
+    },
+    "mode_5v5": {
+      "title": "5V5 DRAFT",
+      "desc": "Fast classic mode. 5 players per team. First come, first served!",
+      "tag1": "5 Players",
+      "tag2": "Fast"
+    },
+    "mode_blind": {
+      "title": "BLIND RANKING",
+      "desc": "TikTok Mini-game: Rank 10 mystery players from 1 to 10 without knowing who comes next!",
+      "tag1": "Mini-Game",
+      "tag2": "Solo / Co-op"
+    },
+    "mode_sbs": {
+      "title": "START BENCH SELL",
+      "desc": "3 players: Start one, Bench one, Sell one. Make your choices!",
+      "tag1": "Mini-Game",
+      "tag2": "Debate"
+    },
+    "mode_mystery": {
+      "title": "GUESS THE PLAYER",
+      "desc": "Guess the hidden player with increasingly precise clues.",
+      "tag1": "Mini-Game",
+      "tag2": "Knowledge"
+    },
+    "mode_prix": {
+      "title": "THE RIGHT PRICE",
+      "desc": "Estimate the real purchase price (Adjusted for inflation) of a historical transfer.",
+      "tag1": "Mini-Game",
+      "tag2": "Football Culture"
+    },
+    "mode_intrus": {
+      "title": "FIND THE ODD ONE OUT",
+      "desc": "Among 4 players, find the one who is the odd one out based on a given criterion.",
+      "tag1": "Mini-Game",
+      "tag2": "Football Culture"
+    },
+    "mode_joue_avec": {
+      "title": "PLAYED WITH...",
+      "desc": "Find the player who played with the 4 given players.",
+      "tag1": "Mini-Game",
+      "tag2": "Football Culture"
+    },
+    "mode_plus_ou_moins": {
+      "title": "HIGHER OR LOWER",
+      "desc": "Is the next player rated higher or lower than the previous one?",
+      "tag1": "Mini-Game",
+      "tag2": "Football Culture"
+    }
+  },
+  "bidding": {
+    "no_one": "Nobody",
+    "current_bid": "Current Bid",
+    "held_by": "Held by:",
+    "turn_of": "Turn of:",
+    "available_budget": "Available budget:",
+    "waiting_for_player": "Waiting for {{name}}'s decision...",
+    "you_hold_bid": "You hold the bid!",
+    "waiting_for_others": "Waiting for other players...",
+    "custom_amount_placeholder": "Exact amount...",
+    "bid": "Bid",
+    "pass": "Fold"
+  },
+  "gameboard": {
+    "pool": "Player Pool",
+    "draft_in_progress": "Draft in progress",
+    "position_to_draft": "Position to draft",
+    "drawer": "Drawer",
+    "budgets_teams": "Budgets & Teams",
+    "drafts": "drafts",
+    "turn_alert": "It's {{name}}'s turn to draw!",
+    "legendary_xi_order_alert": "In Legendary XI mode, cards must be drawn in order!",
+    "insufficient_funds": "Insufficient funds!",
+    "higher_bid_alert": "The bid must be higher than the current bid!"
+  },
+  "plusoumoins": {
+    "back": "Back",
+    "score": "Score",
+    "max": "Max",
+    "title": "HIGHER OR LOWER",
+    "stat_label": "Statistic:",
+    "stat_value": "Champions League Goals",
+    "game_over": "GAME OVER!",
+    "has_scored": "has scored",
+    "goals": "goals",
+    "you_said": "You said",
+    "higher": "HIGHER",
+    "lower": "LOWER",
+    "than": "than",
+    "final_score": "Final score:",
+    "play_again": "Play Again"
+  },
+  "chercheintrus": {
+    "back": "Back",
+    "score": "Score",
+    "title": "FIND THE ODD ONE OUT",
+    "subtitle": "Three of these players share a very specific trait. Which one is the odd one out?",
+    "correct": "Bravo! Correct answer 🏆",
+    "incorrect": "Too bad, wrong answer ❌",
+    "next_question": "Next Question"
+  },
+  "mysteryplayer": {
+    "back": "Back",
+    "difficulty_title": "Difficulty Level",
+    "difficulty_desc": "Choose the difficulty of mystery players",
+    "diff_easy": "EASY",
+    "diff_normal": "NORMAL",
+    "diff_hard": "HARD",
+    "diff_expert": "EXPERT",
+    "diff_fada": "FOOTBALL FANATIC",
+    "diff_all": "ALL LEVELS (Random)",
+    "menu": "Menu",
+    "restart": "Restart",
+    "title": "GUESS THE PLAYER",
+    "player": "Player",
+    "difficulty": "Difficulty",
+    "hidden_clue": "Hidden clue...",
+    "next_player": "Next Player",
+    "game_over": "Game over! You guessed all the players in this category.",
+    "next_clue": "Next Clue",
+    "reveal": "Reveal!"
+  },
+  "justeprix": {
+    "title": "THE RIGHT PRICE",
+    "subtitle": "Guess the historical transfer fee (in Millions of Euros).",
+    "back": "Back",
+    "p1": "P1",
+    "p2": "P2",
+    "transfer_to": "Transfer to",
+    "in_year": "in",
+    "player1_guess": "Player 1 Estimate",
+    "player2_guess": "Player 2 Estimate",
+    "closest": "🏆 Closest!",
+    "lost": "❌ Lost",
+    "reveal_price": "Reveal the price",
+    "tie": "🤝 Perfect tie!",
+    "winner_point": "🎉 Player {{player}} wins the point!",
+    "next_transfer": "Next Transfer",
+    "alert_enter_price": "Both players must enter a price!"
+  },
+  "gamesetup": {
+    "title": "Game Setup",
+    "title_xi": "Legendary XI Setup",
+    "title_5v5": "5v5 Draft Setup",
+    "back": "Back",
+    "mode_local": "Local Game (Single Screen)",
+    "mode_host": "Create Room",
+    "mode_join": "Join",
+    "join_title": "Join an online game",
+    "your_pseudo": "Your Nickname",
+    "placeholder_pseudo": "Ex: Zidane",
+    "room_code": "Room Code (4 letters)",
+    "placeholder_code": "Ex: A7B2",
+    "players_settings": "Player Settings",
+    "num_players": "Number of players (2-5)",
+    "players": "Players",
+    "player": "Player",
+    "pseudo": "Nickname",
+    "host_pseudo": "Your Nickname (Host)",
+    "placeholder_host": "Host Nickname",
+    "budget_settings": "Budget Settings",
+    "starting_budget": "Starting Budget (M€)",
+    "theme_choice": "Theme Selection",
+    "category": "Category",
+    "category_custom": "Custom",
+    "custom_items_label": "Items to draft (10 max)",
+    "item": "Item",
+    "position_draft": "Draft by Positions",
+    "position_draft_desc": "You will draft a legendary XI position by position. Be strategic!",
+    "btn_join": "Join Game",
+    "btn_create": "Create Room",
+    "btn_start": "Start Game",
+    "alert_join_required": "Please enter a code and a nickname.",
+    "alert_custom_items": "For {{players}} players, you must enter exactly {{required}} items (5 per player)."
+  },
+  "joueavec": {
+    "back": "Back",
+    "score": "Score",
+    "title": "PLAYED WITH...",
+    "subtitle": "Which player had the chance to play with these 4 legends in their career?",
+    "choose_answer": "Choose the correct answer:",
+    "correct": "Well done! Correct answer 🏆",
+    "wrong": "Too bad, wrong answer ❌",
+    "next_player": "Next Player"
+  },
+  "startbenchsell": {
+    "back": "Back",
+    "new_draw": "New Draw",
+    "title": "START, BENCH, SELL",
+    "subtitle": "Debate: Who starts, who goes on the bench, and who is sold?",
+    "role_start": "START",
+    "role_bench": "BENCH",
+    "role_sell": "SELL",
+    "start": "Start",
+    "bench": "Bench",
+    "sell": "Sell",
+    "choices_validated": "Choices Confirmed!",
+    "next_round": "Next Round"
+  },
+  "blindranking": {
+    "back": "Back",
+    "restart": "Restart",
+    "title": "BLIND RANKING",
+    "description": "Rank these 10 players from 1 to 10 without knowing who comes next!",
+    "game_over": "Finished!",
+    "final_ranking": "Here is your final ranking.",
+    "empty": "Empty",
+    "click_to_place": "Click to place here..."
+  }
+}

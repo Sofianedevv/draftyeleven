@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap');
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+      width: 1200px;
+      height: 630px;
+      background-color: #0b0f19;
+      background-image: 
+        radial-gradient(circle at 50% -20%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 50% 120%, rgba(16, 185, 129, 0.1) 0%, transparent 60%);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo-container {
+      margin-bottom: 2rem;
+      border-radius: 32px;
+      overflow: hidden;
+      box-shadow: 0 0 60px rgba(59, 130, 246, 0.6);
+      border: 3px solid rgba(255,255,255,0.15);
+      width: 150px;
+      height: 150px;
+      display: flex;
+    }
+
+    .logo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .title {
+      font-size: 5rem;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      letter-spacing: -2px;
+      line-height: 1.1;
+      text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .title-accent {
+      background: linear-gradient(135deg, #60a5fa, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .description {
+      font-size: 1.8rem;
+      color: #94a3b8;
+      text-align: center;
+      font-weight: 600;
+      max-width: 900px;
+      line-height: 1.4;
+      margin-bottom: 3rem;
+    }
+
+    .cta {
+      font-size: 1.5rem;
+      color: #3b82f6;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo-container">
+    <img src="logo.jpg" alt="Logo" />
+  </div>
+
+  <h1 class="title">
+    DRAFTY <span class="title-accent">ELEVEN</span>
+  </h1>
+
+  <p class="description">
+    La meilleure application de mini-jeux de football entre amis.<br/>
+    Draft de légende, Devinettes, Juste Prix et bien plus !
+  </p>
+
+  <div class="cta">
+    JOUEZ GRATUITEMENT • DRAFTYELEVEN.FR
+  </div>
+
+  <script>
+    // Make sure fonts are loaded before taking screenshot
+    document.fonts.ready.then(() => {
+      const div = document.createElement('div');
+      div.id = 'fonts-loaded';
+      document.body.appendChild(div);
+    });
+  </script>
+</body>
+</html>
