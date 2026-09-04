@@ -26,7 +26,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('football_xi')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(16,185,129,0.1) 0%, rgba(16,185,129,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(16,185,129,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -35,17 +35,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(16,185,129,0.2)';
             e.currentTarget.style.borderColor = 'rgba(16,185,129,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(16,185,129,0.3), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(16,185,129,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(16,185,129,0.2)', padding: '1rem', borderRadius: '50%' }}>
