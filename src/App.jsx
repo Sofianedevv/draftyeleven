@@ -390,7 +390,7 @@ function App() {
             gap: '10px',
             cursor: 'pointer',
             padding: '10px 0 20px 0',
-            justifyContent: 'center',
+            justifyContent: 'flex-start',
             opacity: 0.8,
             transition: 'opacity 0.2s'
           }}

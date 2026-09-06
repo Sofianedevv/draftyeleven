@@ -26,8 +26,8 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('football_xi')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat',
-            border: '2px solid rgba(16,185,129,0.3)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.jpg) center/cover no-repeat',
+            border: '2px solid rgba(209, 214, 211, 0.3)',
             borderRadius: '24px',
             padding: '2rem',
             cursor: 'pointer',
@@ -41,15 +41,15 @@ export default function Home({ onSelectMode }) {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
-            e.currentTarget.style.boxShadow = '0 20px 40px rgba(16,185,129,0.2)';
-            e.currentTarget.style.borderColor = 'rgba(16,185,129,0.8)';
-            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(16,185,129,0.3), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat';
+            e.currentTarget.style.boxShadow = '0 20px 40px rgba(157, 163, 161, 0.2)';
+            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(169, 181, 177, 0.3), rgba(11,15,25,0.95)), url(/pitch_card_bg.jpg) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
-            e.currentTarget.style.borderColor = 'rgba(16,185,129,0.3)';
-            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.png) center/cover no-repeat';
+            e.currentTarget.style.borderColor = 'rgba(167, 187, 181, 0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/pitch_card_bg.jpg) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(16,185,129,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -115,7 +115,7 @@ export default function Home({ onSelectMode }) {
           className="mode-card"
           style={{
             background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/blind_card_bg.png) center/cover no-repeat',
-            border: '2px solid rgba(168,85,247,0.3)',
+            border: '2px solid rgba(252, 133, 14, 0.3)',
             borderRadius: '24px',
             padding: '2rem',
             cursor: 'pointer',
@@ -129,18 +129,18 @@ export default function Home({ onSelectMode }) {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
-            e.currentTarget.style.boxShadow = '0 20px 40px rgba(168,85,247,0.2)';
-            e.currentTarget.style.borderColor = 'rgba(168,85,247,0.8)';
-            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(168,85,247,0.3), rgba(11,15,25,0.95)), url(/blind_card_bg.png) center/cover no-repeat';
+            e.currentTarget.style.boxShadow = '0 20px 40px rgba(247, 182, 85, 0.2)';
+            e.currentTarget.style.borderColor = 'rgba(247, 166, 85, 0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(247, 166, 85, 0.3), rgba(11,15,25,0.95)), url(/blind_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
-            e.currentTarget.style.borderColor = 'rgba(168,85,247,0.3)';
+            e.currentTarget.style.borderColor = 'rgba(247, 169, 85, 0.3)';
             e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/blind_card_bg.png) center/cover no-repeat';
           }}
         >
-          <div style={{ background: 'rgba(168,85,247,0.2)', padding: '1rem', borderRadius: '50%' }}>
+          <div style={{ background: 'rgba(247, 161, 85, 0.2)', padding: '1rem', borderRadius: '50%' }}>
             <Trophy size={40} color="#a855f7" />
           </div>
           <h2 style={{ fontSize: '1.8rem', fontWeight: '900', margin: 0, color: 'var(--text-primary)' }}>{t('home.mode_blind.title')}</h2>
@@ -148,8 +148,8 @@ export default function Home({ onSelectMode }) {
             {t('home.mode_blind.desc')}
           </p>
           <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag2')}</span>
+            <span style={{ background: 'rgba(247, 171, 85, 0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
+            <span style={{ background: 'rgba(247, 161, 85, 0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag2')}</span>
           </div>
         </div>
 
@@ -158,7 +158,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('start_bench_sell')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(236,72,153,0.1) 0%, rgba(236,72,153,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/bench_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(236,72,153,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -167,17 +167,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(236,72,153,0.2)';
             e.currentTarget.style.borderColor = 'rgba(236,72,153,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(236,72,153,0.3), rgba(11,15,25,0.95)), url(/bench_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(236,72,153,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/bench_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(236,72,153,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -198,7 +202,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('mystery_player')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(234,179,8,0.1) 0%, rgba(234,179,8,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/mystery_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(234,179,8,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -207,17 +211,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(234,179,8,0.2)';
             e.currentTarget.style.borderColor = 'rgba(234,179,8,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(234,179,8,0.3), rgba(11,15,25,0.95)), url(/mystery_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(234,179,8,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/mystery_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(234,179,8,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -238,7 +246,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('juste_prix')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(16,185,129,0.1) 0%, rgba(16,185,129,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/prix_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(16,185,129,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -247,17 +255,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(16,185,129,0.2)';
             e.currentTarget.style.borderColor = 'rgba(16,185,129,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(16,185,129,0.3), rgba(11,15,25,0.95)), url(/prix_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(16,185,129,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/prix_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(16,185,129,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -278,7 +290,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('cherche_intrus')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(239,68,68,0.1) 0%, rgba(239,68,68,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/intrus_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(239,68,68,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -287,17 +299,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(239,68,68,0.2)';
             e.currentTarget.style.borderColor = 'rgba(239,68,68,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(239,68,68,0.3), rgba(11,15,25,0.95)), url(/intrus_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(239,68,68,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/intrus_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(239,68,68,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -318,7 +334,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('joue_avec')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(59,130,246,0.1) 0%, rgba(59,130,246,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/joue_avec_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(59,130,246,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -327,17 +343,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(59,130,246,0.2)';
             e.currentTarget.style.borderColor = 'rgba(59,130,246,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(59,130,246,0.3), rgba(11,15,25,0.95)), url(/joue_avec_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(59,130,246,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/joue_avec_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(59,130,246,0.2)', padding: '1rem', borderRadius: '50%' }}>
@@ -358,7 +378,7 @@ export default function Home({ onSelectMode }) {
           onClick={() => onSelectMode('plus_ou_moins')}
           className="mode-card"
           style={{
-            background: 'linear-gradient(145deg, rgba(168,85,247,0.1) 0%, rgba(168,85,247,0.02) 100%)',
+            background: 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/plus_moins_card_bg.png) center/cover no-repeat',
             border: '2px solid rgba(168,85,247,0.3)',
             borderRadius: '24px',
             padding: '2rem',
@@ -367,17 +387,21 @@ export default function Home({ onSelectMode }) {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            position: 'relative',
+            overflow: 'hidden'
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
             e.currentTarget.style.boxShadow = '0 20px 40px rgba(168,85,247,0.2)';
             e.currentTarget.style.borderColor = 'rgba(168,85,247,0.8)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(168,85,247,0.3), rgba(11,15,25,0.95)), url(/plus_moins_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.transform = 'translateY(0)';
             e.currentTarget.style.boxShadow = 'none';
             e.currentTarget.style.borderColor = 'rgba(168,85,247,0.3)';
+            e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(11,15,25,0.75), rgba(11,15,25,0.95)), url(/plus_moins_card_bg.png) center/cover no-repeat';
           }}
         >
           <div style={{ background: 'rgba(168,85,247,0.2)', padding: '1rem', borderRadius: '50%' }}>
