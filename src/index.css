@@ -486,3 +486,23 @@ option {
 .animate-swap {
   animation: swapPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+@media (max-width: 600px) {
+  .game-card {
+    aspect-ratio: auto;
+    min-height: 90px;
+  }
+  .card-name {
+    font-size: 0.85rem;
+    word-break: break-word;
+    margin-bottom: 0.15rem;
+  }
+  .card-owner {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.4rem;
+    margin-top: 0.25rem !important;
+  }
+  .card-content {
+    padding: 0.25rem;
+  }
+}
