@@ -511,16 +511,21 @@ option {
 /* Modes Container for Home */
 .modes-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 3rem;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto 2rem auto;
+  max-width: 1600px;
+  margin: 0 auto 3rem auto;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1500px) {
   .modes-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) and (max-width: 1499px) {
+  .modes-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
