@@ -60,7 +60,8 @@ export default function Home({ onSelectMode }) {
             {t('home.mode_xi.desc')}
           </p>
           <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_xi.tag1')}</span>
+            <span style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
+              <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_xi.tag1')}</span>
             <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_xi.tag2')}</span>
           </div>
         </div>
@@ -104,7 +105,8 @@ export default function Home({ onSelectMode }) {
             {t('home.mode_5v5.desc')}
           </p>
           <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_5v5.tag1')}</span>
+            <span style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
+              <span style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_5v5.tag1')}</span>
             <span style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_5v5.tag2')}</span>
           </div>
         </div>
