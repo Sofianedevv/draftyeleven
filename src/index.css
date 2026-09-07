@@ -514,7 +514,14 @@ option {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   width: 100%;
-  margin-bottom: 2rem;
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+}
+
+@media (min-width: 1024px) {
+  .modes-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
