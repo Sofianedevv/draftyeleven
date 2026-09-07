@@ -524,14 +524,38 @@ option {
     scroll-snap-type: x mandatory;
     gap: 1rem;
     padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    width: calc(100% + 2rem);
     scrollbar-width: none; /* Firefox */
   }
   .modes-container::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
   }
   .modes-container > div {
-    min-width: 85vw;
+    width: 75vw;
+    min-width: 260px;
+    max-width: 320px;
     scroll-snap-align: center;
     flex-shrink: 0;
   }
+}
+
+@media (max-width: 600px) {
+  .mode-card {
+    padding: 1.5rem !important;
+  }
+  .mode-card h2 {
+    font-size: 1.4rem !important;
+  }
+  .mode-card p {
+    font-size: 0.85rem !important;
+  }
+}
+
+.mode-card {
+  box-sizing: border-box;
+  max-width: 100%;
 }
