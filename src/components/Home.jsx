@@ -19,7 +19,7 @@ export default function Home({ onSelectMode }) {
         {t('home.subtitle')}
       </p>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', width: '100%', marginBottom: '2rem' }}>
+      <div className="modes-container">
         
         {/* Mode XI de Légende */}
         <div 
@@ -27,7 +27,7 @@ export default function Home({ onSelectMode }) {
           className="mode-card"
           style={{
             background: 'linear-gradient(to bottom, rgba(5,16,9,0.4), rgba(5,16,9,0.85)), url(/legends_card_bg.png) center/cover no-repeat',
-            border: '2px solid rgba(209, 214, 211, 0.3)',
+            border: '2px solid rgba(250, 204, 21, 0.3)',
             borderRadius: '24px',
             padding: '2rem',
             cursor: 'pointer',
@@ -41,8 +41,8 @@ export default function Home({ onSelectMode }) {
           }}
           onMouseEnter={(e) => {
             e.currentTarget.style.transform = 'translateY(-10px)';
-            e.currentTarget.style.boxShadow = '0 20px 40px rgba(157, 163, 161, 0.2)';
-            e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.8)';
+            e.currentTarget.style.boxShadow = '0 20px 40px rgba(250, 204, 21, 0.2)';
+            e.currentTarget.style.borderColor = 'rgba(250, 204, 21, 0.8)';
             e.currentTarget.style.background = 'linear-gradient(to bottom, rgba(169, 181, 177, 0.3), rgba(5,16,9,0.85)), url(/legends_card_bg.png) center/cover no-repeat';
           }}
           onMouseLeave={(e) => {

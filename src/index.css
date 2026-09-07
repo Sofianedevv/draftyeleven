@@ -506,3 +506,32 @@ option {
     padding: 0.25rem;
   }
 }
+
+
+/* Modes Container for Home */
+.modes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .modes-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    scrollbar-width: none; /* Firefox */
+  }
+  .modes-container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  .modes-container > div {
+    min-width: 85vw;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+}
