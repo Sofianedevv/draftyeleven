@@ -38,7 +38,7 @@ body {
 
 #root {
   width: 100%;
-  max-width: 480px; /* Perfect for mobile */
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
   min-height: 100dvh;
@@ -511,21 +511,16 @@ option {
 /* Modes Container for Home */
 .modes-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto 3rem auto;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1024px) {
   .modes-container {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 1024px) and (max-width: 1499px) {
-  .modes-container {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
