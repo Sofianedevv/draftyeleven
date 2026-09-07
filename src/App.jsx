@@ -476,7 +476,7 @@ function App() {
           </p>
           <button 
             className="btn btn-secondary"
-            style={{ marginTop: '0.5rem', width: 'auto', padding: '0.5rem 1.25rem', borderRadius: '12px', fontSize: '0.85rem', color: 'var(--text-secondary)' }}
+            style={{ marginTop: '0.5rem', width: 'auto', padding: '0.6rem 1.5rem', borderRadius: '12px', fontSize: '0.9rem', color: '#ffffff', border: '1px solid rgba(255,255,255,0.2)', background: 'rgba(255,255,255,0.05)' }}
             onClick={() => window.open('https://www.paypal.com/paypalme/Schadili', '_blank')}
           >
             {t('donation.btn')} ☕
