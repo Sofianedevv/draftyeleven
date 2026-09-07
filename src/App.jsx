@@ -467,19 +467,19 @@ function App() {
       {screen === 'plus_ou_moins' && <PlusOuMoins onBack={handleGoHome} />}
 
       <div style={{ marginTop: 'auto', paddingTop: '4rem', width: '100%' }}>
-        <div style={{ padding: '1rem', background: 'rgba(255,255,255,0.03)', borderTop: '1px solid rgba(255,255,255,0.05)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', width: '100%', textAlign: 'center' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#f43f5e', fontWeight: '800', fontSize: '1rem' }}>
-            <Heart size={18} fill="#f43f5e" /> {t('donation.title')}
+        <div style={{ padding: '2rem 1rem', background: 'transparent', borderTop: '1px solid var(--surface-border)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', width: '100%', textAlign: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-primary)', fontWeight: '600', fontSize: '0.95rem' }}>
+            <Heart size={16} fill="#f43f5e" color="#f43f5e" /> {t('donation.title')}
           </div>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: 0, lineHeight: '1.4', maxWidth: '500px' }}>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', margin: 0, lineHeight: '1.4', maxWidth: '500px' }}>
             {t('donation.desc')}
           </p>
           <button 
-            className="btn"
-            style={{ background: '#f43f5e', marginTop: '0.25rem', width: 'auto', padding: '0.5rem 1.25rem', borderRadius: '10px', fontSize: '0.9rem' }}
+            className="btn btn-secondary"
+            style={{ marginTop: '0.5rem', width: 'auto', padding: '0.5rem 1.25rem', borderRadius: '12px', fontSize: '0.85rem', color: 'var(--text-secondary)' }}
             onClick={() => window.open('https://www.paypal.com/paypalme/Schadili', '_blank')}
           >
-            {t('donation.btn')} ❤️
+            {t('donation.btn')} ☕
           </button>
         </div>
       </div>
