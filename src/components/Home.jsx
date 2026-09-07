@@ -59,10 +59,11 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             {t('home.mode_xi.desc')}
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
-              <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_xi.tag1')}</span>
-            <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_xi.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
+              <span className='mode-badge' style={{ background: 'rgba(59, 130, 246, 0.15)', color: '#60a5fa', border: '1px solid rgba(59, 130, 246, 0.3)' }}>🤝 Coop</span>
+              <span className='mode-badge' style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)' }}>{t('home.mode_xi.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)' }}>{t('home.mode_xi.tag2')}</span>
           </div>
         </div>
 
@@ -104,10 +105,11 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             {t('home.mode_5v5.desc')}
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
-              <span style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_5v5.tag1')}</span>
-            <span style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_5v5.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(16, 185, 129, 0.15)', color: 'var(--success)', display: 'flex', alignItems: 'center', gap: '0.4rem', border: '1px solid rgba(16, 185, 129, 0.3)' }}><div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--success)', boxShadow: '0 0 8px var(--success)' }}></div>En ligne</span>
+              <span className='mode-badge' style={{ background: 'rgba(59, 130, 246, 0.15)', color: '#60a5fa', border: '1px solid rgba(59, 130, 246, 0.3)' }}>🤝 Coop</span>
+              <span className='mode-badge' style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)' }}>{t('home.mode_5v5.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(245,158,11,0.2)', color: 'var(--warning)' }}>{t('home.mode_5v5.tag2')}</span>
           </div>
         </div>
 
@@ -149,9 +151,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             {t('home.mode_blind.desc')}
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(247, 171, 85, 0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(247, 161, 85, 0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(247, 171, 85, 0.2)', color: '#a855f7' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(247, 161, 85, 0.2)', color: '#a855f7' }}>{t('home.mode_blind.tag2')}</span>
           </div>
         </div>
 
@@ -193,9 +195,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             {t('home.mode_sbs.desc')}
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(236,72,153,0.2)', color: '#ec4899', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(236,72,153,0.2)', color: '#ec4899', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_sbs.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(236,72,153,0.2)', color: '#ec4899' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(236,72,153,0.2)', color: '#ec4899' }}>{t('home.mode_sbs.tag2')}</span>
           </div>
         </div>
 
@@ -237,9 +239,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             Des indices apparaissent un par un. Sois le premier à crier le nom du joueur !
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(234,179,8,0.2)', color: '#eab308', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(234,179,8,0.2)', color: '#eab308', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_prix.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(234,179,8,0.2)', color: '#eab308' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(234,179,8,0.2)', color: '#eab308' }}>{t('home.mode_prix.tag2')}</span>
           </div>
         </div>
 
@@ -281,9 +283,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             Devinez le montant d'un transfert historique ! Celui qui est le plus proche gagne.
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>Connaissance</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(16,185,129,0.2)', color: 'var(--success)' }}>Connaissance</span>
           </div>
         </div>
 
@@ -325,9 +327,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             Trouvez l'intrus parmi 4 joueurs qui partagent un point commun.
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(239,68,68,0.2)', color: 'var(--danger)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(239,68,68,0.2)', color: 'var(--danger)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_prix.tag2')}</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(239,68,68,0.2)', color: 'var(--danger)' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(239,68,68,0.2)', color: 'var(--danger)' }}>{t('home.mode_prix.tag2')}</span>
           </div>
         </div>
 
@@ -369,9 +371,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             Trouvez le seul joueur qui a joué avec les 4 légendes affichées.
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(14,165,233,0.2)', color: 'var(--accent)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(14,165,233,0.2)', color: 'var(--accent)', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>Mémoire</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(14,165,233,0.2)', color: 'var(--accent)' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(14,165,233,0.2)', color: 'var(--accent)' }}>Mémoire</span>
           </div>
         </div>
 
@@ -413,9 +415,9 @@ export default function Home({ onSelectMode }) {
           <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', margin: 0 }}>
             Higher or Lower : Devinez qui a marqué le plus de buts en Ligue des Champions !
           </p>
-          <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
-            <span style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>{t('home.mode_blind.tag1')}</span>
-            <span style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7', padding: '0.3rem 0.8rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 'bold' }}>Survie</span>
+          <div className='mode-tags'>
+            <span className='mode-badge' style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7' }}>{t('home.mode_blind.tag1')}</span>
+            <span className='mode-badge' style={{ background: 'rgba(168,85,247,0.2)', color: '#a855f7' }}>Survie</span>
           </div>
         </div>
 
