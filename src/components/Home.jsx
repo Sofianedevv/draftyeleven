@@ -5,7 +5,7 @@ import { Trophy, Swords, LayoutGrid, Users, Search, Coins, Target, TrendingUp, H
 export default function Home({ onSelectMode }) {
   const { t } = useTranslation();
   return (
-    <div className="animate-fade-in" style={{ margin: 'auto', textAlign: 'center', padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', maxWidth: '800px' }}>
+    <div className="animate-fade-in" style={{ margin: 'auto', textAlign: 'center', padding: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', maxWidth: '100%' }}>
       
       <div style={{ marginBottom: '1rem', display: 'inline-flex', borderRadius: '32px', overflow: 'hidden', boxShadow: '0 0 40px rgba(59, 130, 246, 0.4)', border: '2px solid rgba(255,255,255,0.1)' }}>
         <img src="/logo.jpg" alt="Logo" style={{ width: '120px', height: '120px', objectFit: 'cover' }} />
